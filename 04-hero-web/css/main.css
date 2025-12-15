@@ -1,0 +1,256 @@
+/* ============================================
+RESET I BASE
+============================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a202c;
+  line-height: 1.6;
+  background-color: #f7fafc;
+}
+
+/* ============================================
+MENÚ NAVIGATION STICKY
+============================================ */
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header nav {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 0.25rem;
+}
+
+header nav a img {
+  width: 2.5rem;
+  filter: invert(100%);
+  vertical-align: bottom;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo span {
+  font-size: 2.5rem;
+}
+
+.nav-menu {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.nav-menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 0.2rem;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  border: solid 1px white;
+  padding: 0.25rem 0.5rem;
+}
+
+
+
+/* ============================================
+HERO SECTION AMB PARALLAX
+============================================ */
+
+.hero {
+  height: 100vh;
+  background-image: url("./../img/hero-section.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 13rem;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: white;
+  text-shadow:  0 0 3px black;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-glass {
+  border-radius: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur (3px);
+}
+
+/* ============================================
+SECCIÓ DESTINACIONS POPULARS
+============================================ */
+#destinacions{
+  margin: 10px;
+}
+
+#destinacions div h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 2rem;
+}
+
+.section-description{
+  text-align: center;
+  font-size: 1.65rem;
+  margin: 2rem;
+}
+
+.card-container {
+  margin: 1.5rem;
+  padding: 1.5rem;
+}
+
+.travel-card {
+  display: inline-block;
+  width: 31%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.travel-card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.travel-card h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}
+
+.travel-card p {
+  text-align: left;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.card-price  {
+  color: #1abc9c;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn-card {
+  padding: 1rem 1.5rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  background-color: #2980b9;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* ============================================
+OFERTES DESTACADES
+============================================ */
+.section-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.featured-card {
+  display: inline-block;
+  width: 23%;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.featured-badge {
+  background-color: #e74c3c;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 1.1rem;
+  font-weight: bold;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.featured-card img {
+  width: 100%;
+}
+.featured-content {
+  padding: 1rem;
+}
+
+.featured-content h3 {
+  margin: 0.5rem;
+}
+
+.featured-content p {
+  margin: 0.5rem;
+}
+
+.featured-price {
+  color: #e74c3c;
+  text-decoration: line-through;
+  margin: 0.5rem;
+}
+
+.featured-price-new {
+  color: #1abc9c;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+/* ============================================
+FOOTER
+============================================ */
+
+#contacte {
+  background-color: #1a202c;
+  padding: 3rem;
+}
+
+#contacte h3 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #1abc9c;
+  margin: 1rem;
+  
+}
+
+#contacte p {
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+}
